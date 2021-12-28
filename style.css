@@ -1,0 +1,77 @@
+body{
+  background-color: #252617;
+  background-image: url('assets/img/Abstract_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0; 
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url(assets/KaushanScript-Regular.ttf);
+}
+
+
+/* ID */
+#container{
+  width: 70vw;
+  height: 98vh;
+  margin: 0 15vw 0 15vw;
+}
+#headContainer{
+  background-color: white;
+  height: auto;
+}
+#contentContainer{
+  background-color: white;
+  height: 70%;
+}
+#iconBar{
+  background-color: #007279; /*#004246*/
+  width: 100%;
+  height: 5vh;
+}
+#titleContainer{
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+}
+#title{
+  font-size: 5vh;
+  font-family: "titleFont";
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#navBar{
+  background-color: rgba(0, 114, 121, 0.7);
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+#navigation{
+  width: 100%;
+	padding: 0;
+	margin: 0;
+  overflow: hidden;
+  display: table;
+}
+
+/* CLASS */
+.navButton{
+  position: relative;
+  float: left;
+  list-style-type: none;
+  font-family: Trebuchet MS;
+  font-size: 2vh;
+  padding: 1vh 1vw;
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.navButton:hover{
+  background-color: darkcyan;
+}

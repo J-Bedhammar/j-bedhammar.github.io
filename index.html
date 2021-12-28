@@ -2,12 +2,30 @@
 <html>
 
 <head>
-  <title>Phone Shenanigans</title>
+  <title>Jennifer Bedhammar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script/readFile.js"></script>
 </head>
 
-<body>
-  <div style="width:80vw; height:95vh; margin-left:10vw; background-color:green;">
-    <h1>Work In Progress...</h1>
+<body onload=readFromFile()>
+  <div id="container">
+    <div id="headContainer">
+      <div id="iconBar"></div>
+      <div id="titleContainer">
+        <div id="title">Jennifer Bedhammar</div>
+      </div>
+      <div id="navBar">
+        <ul id="navigation">
+          <li class="navButton">Home</li>
+          <li class="navButton">Education</li>
+          <li class="navButton">Projects</li>
+          <li class="navButton">Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div id="contentContainer">
+      <h1 id="demo">[content]</h1></div>
+    </div>
   </div>
 </body>
 
